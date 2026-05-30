@@ -1,0 +1,23 @@
+# Dependencias
+node_modules
+
+# Build
+dist
+dist-ssr
+
+# Entornos — NUNCA subir a git
+.env.test
+.env.production
+.env.*.local
+
+# Editor
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
